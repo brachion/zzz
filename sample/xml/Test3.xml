@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE table [
+  <!ELEMENT tables (table+)  >
+  <!ELEMENT table  (column+) >
+  <!ATTLIST table  name          CDATA #REQUIRED >
+  <!ATTLIST table  description   CDATA #REQUIRED >
+  <!ATTLIST column name          CDATA #REQUIRED >
+  <!ATTLIST column data-type     CDATA #REQUIRED >
+  <!ATTLIST column size          CDATA #IMPLIED  >
+  <!ATTLIST column required      CDATA #IMPLIED  >
+  <!ATTLIST column nullable      CDATA #IMPLIED  >
+  <!ATTLIST column default-value CDATA #IMPLIED  >
+]>
+
+<tables>
+
+	<table name="" description="" >
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+	</table>
+
+	<table name="" description="" >
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+	</table>
+
+	<table name="" description="" >
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+	</table>
+
+</tables>

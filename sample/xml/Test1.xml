@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE table [
+  <!ELEMENT tables (table+)  >
+  <!ELEMENT table  (column+) >
+  <!ATTLIST table  name          CDATA #REQUIRED >
+  <!ATTLIST table  description   CDATA #REQUIRED >
+  <!ATTLIST column name          CDATA #REQUIRED >
+  <!ATTLIST column data-type     CDATA #REQUIRED >
+  <!ATTLIST column size          CDATA #IMPLIED  >
+  <!ATTLIST column required      CDATA #IMPLIED  >
+  <!ATTLIST column nullable      CDATA #IMPLIED  >
+  <!ATTLIST column default-value CDATA #IMPLIED  >
+]>
+
+<tables>
+
+	<table name="Test1_TABLE_1" description="TABLE_DESC_1" >
+		<column name="TBL_1_COL_1" description="TBL_1_COL_1_DESC" data-type="varchar" size="100" required="true" nullable="false" default-value="" />
+		<column name="TBL_1_COL_2" description="TBL_1_COL_2_DESC" data-type="int" size="" required="true" nullable="false" />
+		<column name="TBL_1_COL_3" description="TBL_1_COL_3_DESC" data-type="varchar" size="64" />
+		<column name="TBL_1_COL_4" description="TBL_1_COL_4_DESC" data-type="timestamp" size="" />
+	</table>
+
+	<table name="Test1_TABLE_2" description="TABLE_DESC_2" >
+		<column name="TBL_2_COL_1" description="TBL_2_COL_1_DESC" data-type="varchar" size="100" required="true" nullable="false" default-value="" />
+		<column name="TBL_2_COL_2" description="TBL_2_COL_2_DESC" data-type="int" size="" required="true" nullable="false" />
+		<column name="TBL_2_COL_3" description="TBL_2_COL_3_DESC" data-type="varchar" size="64" />
+		<column name="TBL_2_COL_4" description="TBL_2_COL_4_DESC" data-type="timestamp" size="" />
+		<column name="TBL_2_COL_5" description="TBL_2_COL_4_DESC" data-type="varchar" size="30" />
+	</table>
+
+	<table name="" description="" >
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+		<column name="" description="" data-type="" size="" required="" nullable="" default-value="" />
+	</table>
+
+</tables>
